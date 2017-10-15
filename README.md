@@ -29,20 +29,20 @@ jerarquía de N niveles con 0 a N áreas hijo por area padre. (las tablas creada
 ser poblada con seeds o como se estime conveniente).
 - El api debe tener un endpoint que retorne la jerarquía de áreas creada con sus
 respectivas notas ya calculadas. Debe responder en formato json con una estructura
-similar a la siguiente:
+similar a la siguiente: https://sc-rankmi.herokuapp.com/trees
 
 
 - Generar un endpoint que permite agregar un nuevo hijo a un área ya creada. Al crearse
 el nuevo hijo se debe recalcular la nota de las áreas superiores.
-/trees/:id
+(https://sc-rankmi.herokuapp.com/trees/:id
 - Generar un endpoint que permita cambiar un área dentro de la jerarquía. Los resultados
 deben ser recalculados al realizarse el cambio.."
-/trees/:id/create_child
+(https://sc-rankmi.herokuapp.com/trees/:id/create_child
 ---
 
 #### Link to the test:
 
-- [**Here**]() 
+- [**Here**](https://sc-rankmi.herokuapp.com/trees) 
 
 ---
 
