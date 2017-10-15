@@ -1,0 +1,32 @@
+es:
+  activerecord:
+    models:
+      tree:
+        one: "Organigrama"
+        other: "Organigramas"
+
+    attributes:
+      tree:
+        area: "Area"
+        nota: "Nota"
+
+    errors:
+      models:
+        tree:
+          attributes:
+            nota:
+              blank: "Debes indicar un nota"
+            area:
+              blank: "Debes indicar un area"
+            children:
+              blank: "Debes indicar un hijo"
+              invalid: "El hijo es inválido"
+
+  tree:
+    action:
+      create: 
+        success: "Organigrama creada exitosamente"
+        error: "Error al crear Organigrama"
+      update:
+        success: "Organigrama actualizada exitosamente"
+        error: "Error al actualizar Organigrama"

@@ -1,0 +1,32 @@
+en:
+  activerecord:
+    models:
+      tree:
+        one: "Organization chart"
+        other: "Organization charts"
+
+    attributes:
+      tree:
+        area: "Area"
+        nota: "Note"
+
+    errors:
+      models:
+        tree:
+          attributes:
+            nota:
+              blank: "Note can't be blank"
+            area:
+              blank: "Area can't be blank"
+            children:
+              blank: "Child can't be blank"
+              invalid: "can't is invalid"
+
+  tree:
+    action:
+      create: 
+        success: "Organization chart created successfully"
+        error: "Error creating Organization Chart"
+      update:
+        success: "Organization chart updated successfully"
+        error: "Error updating Organization Chart"
