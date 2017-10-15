@@ -1,0 +1,101 @@
+{
+	"id": "bba8455d-0c59-38de-df23-283f45e9a545",
+	"name": "rankmi",
+	"description": "api",
+	"order": [
+		"2e103e84-f34d-9eee-2fc5-a17bc96bddf1",
+		"1ec3ca66-2fb5-e07a-d978-f77439c68447",
+		"48aa3162-26df-85d8-2ff3-72d5959b101b"
+	],
+	"folders": [],
+	"timestamp": 1508096470466,
+	"owner": "1323049",
+	"public": false,
+	"requests": [
+		{
+			"id": "1ec3ca66-2fb5-e07a-d978-f77439c68447",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:3000/trees/3",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "PUT",
+			"collectionId": "bba8455d-0c59-38de-df23-283f45e9a545",
+			"data": [],
+			"dataMode": "raw",
+			"name": "localhost:3000/trees/3",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1508099104778,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"tree\": {\n\t\t\"nota\": 10.0\n\t}\n}"
+		},
+		{
+			"id": "2e103e84-f34d-9eee-2fc5-a17bc96bddf1",
+			"headers": "",
+			"headerData": [],
+			"url": "localhost:3000/trees",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "bba8455d-0c59-38de-df23-283f45e9a545",
+			"data": null,
+			"dataMode": "params",
+			"name": "localhost:3000/trees",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1508096482257,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "48aa3162-26df-85d8-2ff3-72d5959b101b",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:3000/trees/3/create_child",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "bba8455d-0c59-38de-df23-283f45e9a545",
+			"data": [],
+			"dataMode": "raw",
+			"name": "localhost:3000/trees/3/create_child",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1508101366341,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"tree\": {\n\t\t\"nota\": 10.0,\n\t\t\"area\": \"Nombre alguno\"\n\t}\n}"
+		}
+	]
+}
