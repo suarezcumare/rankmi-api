@@ -14,6 +14,10 @@
 
 * Rspec
 
+* Anotate
+
+* seed_migration
+
 * ancestry
 
 ---

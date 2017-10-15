@@ -50,3 +50,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'dotenv-rails'
 gem 'pry'
 gem 'ancestry'
+gem 'seed_migration'
+gem 'annotate', require: false

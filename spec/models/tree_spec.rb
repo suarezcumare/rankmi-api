@@ -1,3 +1,15 @@
+# == Schema Information
+#
+# Table name: trees
+#
+#  id         :integer          not null, primary key
+#  area       :string
+#  nota       :float
+#  created_at :datetime         not null
+#  updated_at :datetime         not null
+#  ancestry   :string
+#
+
 require 'rails_helper'
 
 RSpec.describe Tree, type: :model do
