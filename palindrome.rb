@@ -29,7 +29,7 @@ end
 
 
 #solucion
-#en ruby existe combination par aun numero de falores, entonces recorro todas las posibles opciones y 
+#en ruby existe combination par aun numero de valores, entonces recorro todas las posibles opciones y 
 #alli lo que hago es iterar por cada una de ella y obtener lo que necesito al final
 
  #numbers( [2, 7, 11, 15], 9)
